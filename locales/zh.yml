@@ -278,6 +278,10 @@ tools:
     title: YAML 到 TOML
     description: 解析YAML并将其转换为TOML。
 
+  bcc-checker:
+    title: BCC校验(异或校验)
+    description: BCC(Block Check Character/信息组校验码)，因校验码是将所有数据异或得出，故俗称异或校验。具体算法是：将每一个字节的数据（一般是两个16进制的字符）进行异或后即得到校验码。
+
   mac-address-generator:
     title: MAC 地址生成器
     description: 输入数量和前缀。MAC地址将以您选择的大小写（大写或小写）生成
